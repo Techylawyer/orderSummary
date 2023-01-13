@@ -82,16 +82,16 @@ p {
 }
 
 .span > a:link {
-    color: hsl(223, 47%, 23%);
+    color: hsl(245, 75%, 52%);
 }
 
 .span > a:hover {
     text-decoration: none;
-    color: hsl(318, 95%, 33%);
+    color: hsl(224, 23%, 55%);;
 }
 
 .span > a:active {
-    color:black;
+    color: hsl(224, 23%, 55%);;
     cursor: pointer;
 }
 
@@ -99,22 +99,18 @@ p {
     width: 80%;
     background-color: hsl(245, 75%, 52%);
     color: white;
-    border: 1px solid hsl(245, 75%, 52%);
+    border: none;
     border-radius: 10px;
     padding: 10px 20px;
     margin: 20px auto;
     font-size: 0.7em;
     font-weight: 700;
-    /* box-shadow: 1px 10px 10px 5px hsl(225, 100%, 94%); */
-    /* box-shadow: 1px 10px 5px 5px hsl(225, 100%, 98%); */
     box-shadow: 1px 10px 30px hsla(224, 23%, 55%, 0.5);
-    /* box-shadow: 1px 10px 20px 5px hsl(245, 75%, 52%); */
-    /* box-shadow: 1px 10px 5px 5px hsl(223, 47%, 23%); */
 }
 
-:payment:hover {
+.payment:hover {
     cursor: pointer;
-    background-color: blueviolet;
+    background-color: hsl(224, 23%, 55%);
 }
 
 .cancel {
@@ -126,6 +122,11 @@ p {
     cursor: pointer;
 }
 
+.cancel:hover {
+    color: #000;
+    cursor: pointer;
+}
+
 @media screen and (max-width:800px) and (min-width:280px) {
     .main {
         width: 90vw;
@@ -133,6 +134,6 @@ p {
     }
 
     body {
-        padding: 15vh 1vh;
+        padding: 10vh 1vh;
     }
 }
